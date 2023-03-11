@@ -1,4 +1,5 @@
 {
+  "homepage": "https://harzarul.github.io/portfolio-3d/",
   "name": "portfolio-3d",
   "private": true,
   "version": "0.0.0",
@@ -6,6 +7,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -13,6 +16,7 @@
     "@react-three/drei": "^9.57.1",
     "@react-three/fiber": "^8.11.10",
     "framer-motion": "^10.2.3",
+    "gh-pages": "^5.0.0",
     "maath": "^0.5.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
