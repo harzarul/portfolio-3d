@@ -1,0 +1,11 @@
+Model Information:
+* title:	Inktober #3 - Bait
+* source:	https://sketchfab.com/3d-models/inktober-3-bait-cef940c8bbf94de8a5c41589c51caf24
+* author:	Karstart (https://sketchfab.com/Kaasme)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Inktober #3 - Bait" (https://sketchfab.com/3d-models/inktober-3-bait-cef940c8bbf94de8a5c41589c51caf24) by Karstart (https://sketchfab.com/Kaasme) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
