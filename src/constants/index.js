@@ -36,9 +36,8 @@ export const aboutMe = [
     icon: Pokeball,
     iconBg: "#fff",
     points: [
-      "Growing grains without external resources",
-      "Production cost 30% less compare to conventional system",
-      "Managing 2 acre of regenerative farm"
+      "Managing 2 acre Syntropic Farm",
+      "Main crop beans and legumes",
     ]
   },
 ];
@@ -47,7 +46,7 @@ export const projectsData = [
   {
     id: 'ebank',
     imgUrl: Hoobank,
-    title: 'E-Bank',
+    title: 'E-Wallet',
     link: 'https://harzarul.github.io/hoooobank/',
     ps: 'Frontend',
   },
