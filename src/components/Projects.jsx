@@ -4,7 +4,7 @@ import { HeadText } from "../components";
 
 const ProjectCard = ({id, imgUrl, title, link, ps, active, handleClick}) => {
     return (
-    <div className={`${active === id ? 'lg:flex-[3.5] flex-[10]' : 'lg:flex-[1] flex-[2]'} flex items-center justify-center min-w-[170px] h-[400px] transition-[flex] duration-[0.7s] ease-out-flex relative`}
+    <div className={`${active === id ? 'lg:flex-[3.5] flex-[10]' : 'lg:flex-[1] flex-[2]'} flex items-center justify-center min-w-[170px] h-[400px] transition-[flex] duration-[0.7s] ease-out-flex relative border-2 border-green rounded-xl`}
         onClick={() => handleClick(id)}>
         <img className='absolute w-full h-full object-contain rounded-[24px]'
             src={imgUrl}

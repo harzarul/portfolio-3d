@@ -124,14 +124,14 @@ const ContactMe = () => {
               name='message'
               value={form.message}
               onChange={handleChange}
-              placeholder="e.g: 2 + 2 is for 4. - 1 that's 3. Quick maths"
+              placeholder="e.g: There's no such thing as talent or genius. There just happen to be people who got passionate in something."
               className='bg-white2 py-4 px-6 placeholder:text-black2 text-green rounded-lg outline-none border-none font-medium'
             />
           </label>
 
           <button
             type='submit'
-            className='bg-glass py-3 px-8 rounded-full outline-none w-fit text-white hover:text-green font-bold shadow-md shadow-black'
+            className='bg-glass py-3 px-8 rounded-full outline-none w-fit text-white hover:text-green font-bold shadow-md shadow-black border-2 border-green'
           >
             {loading ? "Sending..." : "Send"}
           </button>
@@ -140,7 +140,7 @@ const ContactMe = () => {
 
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
-        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px] md:w-[40%] w-full"
+        className="xl:flex-1 xl:h-auto md:h-[550px] h-[200px] md:w-[40%] w-full"
       >
         <SkullCanvas/>
       </motion.div>

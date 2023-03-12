@@ -8,7 +8,7 @@ const Hero = () => {
       <FishingCanvas/>
       <StarsCanvas/>
 
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+      <div className="absolute xs:bottom-10 bottom-[14rem] w-full flex justify-center items-center">
         <a href="#about">
           <div className="sm:w-[28px] w-[18px] sm:h-[56px] h-[40px] rounded-3xl sm:border-4 border-2 border-white flex justify-center items-start p-1">
             <motion.div
