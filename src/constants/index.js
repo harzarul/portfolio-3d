@@ -36,8 +36,8 @@ export const aboutMe = [
     icon: Pokeball,
     iconBg: "#fff",
     points: [
-      "Managing 2 acre Syntropic Farm",
-      "Main crop beans and legumes",
+      "Implementing Food Forest system",
+      "Main harvest beans, legumes and eggs",
     ]
   },
 ];
