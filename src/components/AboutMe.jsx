@@ -31,7 +31,7 @@ const AboutCard = ({about}) => {
       }
     >
       <div>
-        <h1 className='text-[1.2rem] font-poppins font-bold capitalize text-green'>
+        <h1 className='text-[1.2rem] font-poppins font-bold text-green uppercase'>
           {about.title}
         </h1>
       </div>
@@ -40,7 +40,7 @@ const AboutCard = ({about}) => {
         {about.points.map((point, index) => (
           <li
             key={point + index}
-            className="text-[1rem] font-semibold"
+            className="text-[1rem] font-semibold capitalize"
           >
             {point}
           </li>
