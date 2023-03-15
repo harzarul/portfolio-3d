@@ -19,7 +19,7 @@ export const aboutMe = [
     iconBg: "#fff",
     points: [
       "700% gain in a single trade",
-      "Self taught trader",
+      "US Penny Stock Trader",
     ]
   },
   {
